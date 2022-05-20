@@ -1,10 +1,22 @@
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
+/*Основной цвет текста #757575*/
+/*Вторичній цвет текста #212121*/
+/*Цвето логотипа Вебстудио голубой-#2196F3 черный #000000*/
+/*Цвет текста белый #212121 */
+/*Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.logo-accent {
+  color: #000;
+}
+.header-logo {
+  color: #2196f3;
+  text-decoration: none;
 }
