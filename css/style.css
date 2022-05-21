@@ -1,22 +1,192 @@
 /*Основной цвет текста #757575*/
 /*Вторичній цвет текста #212121*/
 /*Цвето логотипа Вебстудио голубой-#2196F3 черный #000000*/
-/*Цвет текста белый #212121 */
+/*Цвет текста белый #ffffff */
 /*Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --adress-color: rgba(255, 255, 255, 0.6);
+  --logo-black: #000000;
+  --logo-white: #ffffff;
+  --background-color: #2f303a;
+  --button-color: #ffffff;
 }
 body {
-  background-color: #e5e5e5;
-  color: #212121;
+  color: var(--title-text-color);
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style: none;
+}
+/* Header */
+.page-header {
+  background-color: var(--button-color);
+}
+.logo-black {
+  color: var(--logo-black);
 }
 .logo-accent {
-  color: #000;
+  color: var(--accent-color);
 }
 .header-logo {
-  color: #2196f3;
-  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.site-nav-blue {
+  color: var(--accent-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav-content {
+  color: var(--title-text-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header-link-mail {
+  color: var(--accent-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header-link-tel {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--background-color);
+}
+.hero-title {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--button-color);
+}
+.button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
+/* Section description */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.section-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+.section-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+/* Section process */
+.section-title-worck {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--title-text-color);
+}
+/*Section team*/
+.team {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--title-text-color);
+}
+.title-team {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-color);
+}
+.team-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+}
+/* Section footer */
+.footer {
+  background-color: var(--background-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-white {
+  color: var(--logo-white);
+}
+.item-map {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--button-color);
+}
+.item-mail {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--adress-color);
+}
+.item-tel {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--adress-color);
 }
