@@ -45,14 +45,14 @@ body {
 
 .site-nav-content {
   color: var(--title-text-color);
-  font-family: 'Roboto';
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .header-link {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,7 +70,6 @@ body {
   background-color: var(--background-color);
 }
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -78,7 +77,6 @@ body {
   color: var(--button-color);
 }
 .button {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -97,14 +95,12 @@ body {
   overflow: hidden;
 }
 .section-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
 }
 .section-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -112,7 +108,6 @@ body {
 }
 /* Section process */
 .section-title-worck {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -121,7 +116,6 @@ body {
 }
 /*Section team*/
 .team {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -129,14 +123,12 @@ body {
   color: var(--title-text-color);
 }
 .title-team {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-text-color);
 }
 .team-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -161,7 +153,6 @@ body {
   color: var(--logo-white);
 }
 .item-map {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -169,7 +160,6 @@ body {
   color: var(--button-color);
 }
 .item-mail {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -177,7 +167,6 @@ body {
   color: var(--adress-color);
 }
 .item-tel {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
