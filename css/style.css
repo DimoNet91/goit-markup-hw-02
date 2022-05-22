@@ -74,6 +74,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
   color: var(--button-color);
 }
 .button {
@@ -115,6 +116,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   color: var(--title-text-color);
 }
 /*Section team*/
@@ -123,6 +125,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   color: var(--title-text-color);
 }
 .title-team {
