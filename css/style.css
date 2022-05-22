@@ -41,13 +41,7 @@ body {
   line-height: 1.19;
   color: var(--accent-color);
 }
-.site-nav-blue {
-  color: var(--accent-color);
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
+
 .site-nav-content {
   color: var(--title-text-color);
   font-family: 'Roboto';
@@ -55,14 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.header-link-mail {
-  color: var(--accent-color);
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-.header-link-tel {
+.header-link {
   color: var(--primary-text-color);
   font-family: 'Roboto';
   font-weight: 500;
